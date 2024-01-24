@@ -1,0 +1,5 @@
+ message := strings.Join(commandParts[1:], " ")
+     repo.commit(message)
+    } else {
+     fmt.Println("Invalid commit command. Usage: commit <message>")
+    }
